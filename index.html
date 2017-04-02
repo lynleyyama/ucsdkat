@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Creative - Start Bootstrap Theme</title>
+    <title>UCSD Theta</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -76,7 +76,7 @@
                 <h1 id="homeHeading">KAPPA ALPHA THETA</h1>
                 <hr>
                 <p>Zeta Rho | University of California, San Diego</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Meet Our Chapter</a>
             </div>
         </div>
     </header>
@@ -145,7 +145,7 @@
         <div class="container-fluid">
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="about/our-chapter.html" class="portfolio-box">
+                    <a href="#portfolioModal1" class="portfolio-box portfolio-link" data-toggle="modal">
                         <img src="img/chapter.jpg" class="img-responsive" alt="">
                       
                         <div class="portfolio-box-caption">
@@ -172,7 +172,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#portfolioModal2" class="portfolio-box">
+                    <a href="#portfolioModal3" class="portfolio-box portfolio-link" data-toggle="modal">
                         <img src="img/sisterhood.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -185,7 +185,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
+                    <a href="#portfolioModal4" class="portfolio-box portfolio-link" data-toggle="modal">
                         <img src="img/scholarship 2 copy.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -198,7 +198,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
+                    <a href="#portfolioModal5" class="portfolio-box portfolio-link" data-toggle="modal">
                         <img src="img/recruitment.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -211,7 +211,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
+                    <a href="#portfolioModal6" class="portfolio-box portfolio-link" data-toggle="modal">
                         <img src="img/leadership.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -235,8 +235,8 @@
                 <form action="https://app.ginsystem.us/login" method="post" target="_blank">
 	
                 	<input type="hidden" name="parent_group" value="kat" />
-                    <div class="col-xs-3 col-xs-offset-3"><input class="form-control" id="usrnm" style="font-family: 'Helvetica Neue'" type="text" name="username" placeholder="Email or Cell Phone #" required></div>
-                    <div class="col-xs-3"><input class="form-control" style="font-family: 'Helvetica Neue'" id="pswrd" type="password" name="password" placeholder="GINsystem Password" required></div>
+                    <div class="col-xs-4 col-xs-offset-1 col-sm-3 col-sm-offset-3"><input class="form-control" id="usrnm" style="font-family: 'Helvetica Neue'" type="text" name="username" placeholder="Email or Cell Phone #" required></div>
+                    <div class="col-xs-4 col-sm-3"><input class="form-control" style="font-family: 'Helvetica Neue'" id="pswrd" type="password" name="password" placeholder="GINsystem Password" required></div>
                     <div class="col-xs-1"><input type="submit" class="btn" value="Log in" /></div>
                 	<div class="col-xs-12">
                         <h5 class="forgot"><a href="https://www.kappaalphatheta.org/collegians/registry/retrieve_password.cfm" style="font-family: 'Helvetica Neue'"target="_blank">Can't Login?</a></h5>
@@ -257,26 +257,28 @@
                 </div>
 
                 <div class="col-lg-2 col-lg-offset-2 text-center">
-                    <i class="fa fa-facebook fa-3x sr-contact"></i>
                     <a href="https://www.facebook.com/UCSDKappaAlphaTheta/">
+                        <i class="fa fa-facebook fa-3x sr-contact"></i>
                         <p>Kappa Alpha Theta at UCSD</p>
                     </a>
                 </div>
                 <div class="col-lg-2 text-center">
-                    <i class="fa fa-instagram fa-3x sr-contact"></i>
                     <a href="https://www.instagram.com/thetaucsd/">
+                        <i class="fa fa-instagram fa-3x sr-contact"></i>
                         <p>@thetaucsd</p>
                     </a>
                 </div>
                 <div class="col-lg-2 text-center">
-                    <i class="fa fa-tumblr fa-3x sr-contact"></i>
                     <a href="http://ucsdtheta.tumblr.com/">
+                        <i class="fa fa-tumblr fa-3x sr-contact"></i>
                         <p>@ucsdtheta</p>
                     </a>
                 </div>
                 <div class="col-lg-2 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:ucsdkat@gmail.com">ucsdkat@gmail.com</a></p>
+                    <a href="mailto:ucsdkat@gmail.com">
+                        <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                        <p>ucsdkat@gmail.com</p>
+                    </a>
                 </div>
             </div>
         </div>
@@ -297,25 +299,19 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Project Title</h2>
+                        <h2>Our Chapter</h2>
                         <hr class="star-primary">
-                        <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
+                        <img src="img/chapter.jpg" class="img-responsive img-centered" alt="">
                         <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                         <ul class="list-inline item-details">
-                            <li>Client:
-                                <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                </strong>
-                            </li>
-                            <li>Date:
+                            <li>
                                 <strong><a href="http://startbootstrap.com">April 2014</a>
                                 </strong>
                             </li>
-                            <li>Service:
-                                <strong><a href="http://startbootstrap.com">Web Development</a>
-                                </strong>
+                            
                             </li>
                         </ul>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        
                     </div>
                 </div>
             </div>
@@ -334,25 +330,17 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Project Title</h2>
+                        <h2>Philanthropy</h2>
                         <hr class="star-primary">
-                        <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                        <img src="img/CASA.jpg" class="img-responsive img-centered" alt="">
+                        <p>For more than 25 years, the national philanthropy of Kappa Alpha Theta and Kappa Alpha Theta Foundation has been Court Appointed Special Advocates (CASA). CASA was created by a juvenile court judge in 1977 to ensure that the abuse and neglect suffered by some children at home does not continue as abuse and neglect at the hands of the judicial system. CASA programs are known by many names and are sometimes referred to as Guardian Ad Litem  or ProKids.</p>
                         <ul class="list-inline item-details">
-                            <li>Client:
-                                <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                </strong>
-                            </li>
-                            <li>Date:
-                                <strong><a href="http://startbootstrap.com">April 2014</a>
-                                </strong>
-                            </li>
-                            <li>Service:
-                                <strong><a href="http://startbootstrap.com">Web Development</a>
+                            <li>
+                                <strong><a href="http://casaforchildren.org">casaforchildren.org</a>
                                 </strong>
                             </li>
                         </ul>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        
                     </div>
                 </div>
             </div>
@@ -371,25 +359,14 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Project Title</h2>
+                        <h2>Sisterhood</h2>
                         <hr class="star-primary">
-                        <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                        <ul class="list-inline item-details">
-                            <li>Client:
-                                <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                </strong>
-                            </li>
-                            <li>Date:
-                                <strong><a href="http://startbootstrap.com">April 2014</a>
-                                </strong>
-                            </li>
-                            <li>Service:
-                                <strong><a href="http://startbootstrap.com">Web Development</a>
-                                </strong>
-                            </li>
+                        <img src="img/iceskate.jpg" class="img-responsive img-centered" alt="">
+                        <p>Theta sisterhood is a bond unlike any other, that will last a lifetime. Thetas are known for their genuine friendships with down-to-earth and crazy fun sisters that you can always count on. Our chapter dedicates a great amount of time to sisterhood bonding events such as yoga at Lorna Jane, getting their workout on at SparkCycle, beach bonfires, morning hikes at Potato Chip Rock or Torrey Pines, and even Disneyland trips! Our tight-knit sisterhood is what makes our chapter one-of-a kind. You can always find a group of Thetas studying together in Geisel, eating lunch on campus, heading to the beach, going out for a night of fun in their party dresses, studying abroad in foreign countries together, or hanging out and adventuring during the Summer!</p>
+                        <ul class="list-inline item-details"> 
+                            
                         </ul>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        
                     </div>
                 </div>
             </div>
@@ -408,7 +385,7 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Project Title</h2>
+                        <h2>Scholarship</h2>
                         <hr class="star-primary">
                         <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
                         <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
@@ -426,7 +403,7 @@
                                 </strong>
                             </li>
                         </ul>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        
                     </div>
                 </div>
             </div>
@@ -445,10 +422,12 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Project Title</h2>
+                        <h2>Recruitment</h2>
                         <hr class="star-primary">
-                        <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                        <img src="img/recruit.jpg" class="img-responsive img-centered" alt="">
+                        <p>Kappa Alpha Theta has a long history as the first Greek-letter fraternity known among women founded on the principles of attaining the highest scholarship, spreading the widest influence for good, and developing our members as leading women. Please visit the campus Panhellenic’s website for more information regarding the recruitment process and to register for primary recruitment. Our chapter is so excited to meet all potential new members (PNMs) throughout the primary recruitment process and cannot wait to welcome a new member class this year!</p> 
+<p>
+Involvement in Greek life provides students with a wide variety of opportunities to develop leadership skills, achieve academically, and increase involvement in the community through various service and philanthropy activities. Additionally, Greek membership can help make the transition to college smoother and more enjoyable for students by providing a support system found through the camaraderie of the Greek community. </p>
                         <ul class="list-inline item-details">
                             <li>Client:
                                 <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
@@ -463,7 +442,7 @@
                                 </strong>
                             </li>
                         </ul>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        
                     </div>
                 </div>
             </div>
@@ -482,7 +461,7 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Project Title</h2>
+                        <h2>Leadership</h2>
                         <hr class="star-primary">
                         <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
                         <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
@@ -500,7 +479,7 @@
                                 </strong>
                             </li>
                         </ul>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        
                     </div>
                 </div>
             </div>
