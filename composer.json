@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "compile": [
+      "chmod -r 775 /",
+      "chmod 644 gulpfile.js"
+    ]
+  }
+}
+
