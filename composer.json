@@ -7,6 +7,8 @@
       "chmod -R 775 less/",
       "chmod -R 775 vendor/",
       "chmod 644 gulpfile.js",
+      "chmod 644 vendor/bootstrap/css/bootstrap.min.css",
+      "ls -l vendor/bootstrap/css",
       "ls -l"
     ]
   }
