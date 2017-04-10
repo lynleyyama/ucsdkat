@@ -1,7 +1,6 @@
 {
   "scripts": {
     "compile": [
-      "chmod -R 775 /",
       "chmod -R 775 css/",
       "chmod -R 775 img/",
       "chmod -R 775 js/",
