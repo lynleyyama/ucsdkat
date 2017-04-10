@@ -1,11 +1,12 @@
 {
   "scripts": {
     "compile": [
-      "chmod -r 775 css/",
-      "chmod -r 775 img/",
-      "chmod -r 775 js/",
-      "chmod -r 775 less/",
-      "chmod -r 775 vendor/",
+      "chmod -R 775 /",
+      "chmod -R 775 css/",
+      "chmod -R 775 img/",
+      "chmod -R 775 js/",
+      "chmod -R 775 less/",
+      "chmod -R 775 vendor/",
       "chmod 644 gulpfile.js"
     ]
   }
