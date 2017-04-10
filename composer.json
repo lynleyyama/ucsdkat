@@ -1,7 +1,7 @@
 {
   "scripts": {
     "compile": [
-      "sudo chmod -R 775 css/",
+      "chmod -R 775 css/",
       "chmod -R 775 img/",
       "chmod -R 775 js/",
       "chmod -R 775 less/",
