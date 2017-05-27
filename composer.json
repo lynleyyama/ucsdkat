@@ -1,6 +1,7 @@
 {
   "scripts": {
     "compile": [
+      "setsebool -P httpd_read_user_content 1",
       "chmod -R 775 css/",
       "chmod -R 775 img/",
       "chmod -R 775 js/",
