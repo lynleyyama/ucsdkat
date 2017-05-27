@@ -7,7 +7,7 @@
       "chmod -R 775 less/",
       "chmod -R 775 vendor/",
       "chmod 644 gulpfile.js",
-      "chmod -R 755 *.*"
+      "chmod -R 755 *.*",
       "ls -l"
     ]
   }
