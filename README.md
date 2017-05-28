@@ -5,9 +5,11 @@
 Link to Heroku-hosted website: https://thetaatucsd.herokuapp.com/index.html
 
 Mobile:
+
 ![Image](https://github.com/lynleyyama/ucsdkat/blob/master/walkthrough-mobile.gif)
 
 Desktop:
+
 ![Image](https://github.com/lynleyyama/ucsdkat/blob/master/walkthrough-desktop.gif)
 
 
