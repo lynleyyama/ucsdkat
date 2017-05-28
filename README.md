@@ -1,6 +1,6 @@
-# UCSD Kappa Alpha Theta Responsive Website 
+# [UCSD Kappa Alpha Theta Responsive Website](https://thetaatucsd.herokuapp.com/index.html) 
 
-### based off of Start Bootstrap's Creative template
+###### based off of Start Bootstrap's Creative template
 
 Link to Heroku-hosted website: https://thetaatucsd.herokuapp.com/index.html
 
