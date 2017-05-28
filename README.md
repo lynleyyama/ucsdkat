@@ -2,7 +2,7 @@
 
 ### based off of Start Bootstrap's Creative template
 
-![Image](http://i.imgur.com/ZtGVrEZ.gif)
+![Image](https://github.com/lynleyyama/ucsdkat/blob/master/walkthrough-mobile.gif)
 
 Link to Heroku-hosted website: https://thetaatucsd.herokuapp.com/index.html
 
