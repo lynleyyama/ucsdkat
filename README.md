@@ -1,5 +1,7 @@
 # UCSD Kappa Alpha Theta website based off of Start Bootstrap's Creative template
 
+![Image](http://i.imgur.com/pqFnndQ.gif)
+
 [Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
 ## Creator
