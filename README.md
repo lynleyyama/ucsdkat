@@ -1,12 +1,15 @@
-# UCSD Kappa Alpha Theta Mobile Responsive Website 
+# UCSD Kappa Alpha Theta Responsive Website 
 
 ### based off of Start Bootstrap's Creative template
 
-![Image](https://github.com/lynleyyama/ucsdkat/blob/master/walkthrough-mobile.gif)
-
 Link to Heroku-hosted website: https://thetaatucsd.herokuapp.com/index.html
 
-Link to dekstop version walkthrough GIF: http://i.imgur.com/pqFnndQ.gif
+Mobile:
+![Image](https://github.com/lynleyyama/ucsdkat/blob/master/walkthrough-mobile.gif)
+
+Desktop:
+![Image](https://github.com/lynleyyama/ucsdkat/blob/master/walkthrough-desktop.gif)
+
 
 [Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
